@@ -6,7 +6,7 @@ module "db" {
 
   engine            = "mysql"
   engine_version    = "5.7.19"
-  instance_class    = "db.t2.large"
+  instance_class    = "db.m4.xlarge"
   allocated_storage = 5
 
   name     = "demodb"
